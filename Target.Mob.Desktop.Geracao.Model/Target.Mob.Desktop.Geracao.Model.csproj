@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Target.Mob.Desktop.Geracao.Model</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Target.Mob.Desktop.Geracao.Enum">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Geracao.Enum.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

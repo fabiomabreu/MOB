@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="GoogleStorageCredentials" xml:space="preserve"><value>{
+  "type": "service_account",
+  "project_id": "tgt-stm",
+  "private_key_id": "05352196cc3c6665f5b9ab4deb07705ba3c163c9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC860ClVXNWOA0t\nCPQPmgU3akrQsoRi+f3WBlzZBnDEWCklkgIvmeXkq4Hcvi7h5HHH85/A0BtnjwEh\nxBBBGAIjevX27GgkflKQWv1YKtU56lEOtfB4tAF6zkN8PqDNSNNnMBN7iFKhLVLZ\n1roBtzySywUxRAWHLX+twXCh0OK7FfK8G9/HpIgQFxYcosPJwL7XN9PRNtH0lBRM\nY9F/prsCqSZd+pZIJxatoqjQbd4k2qvsIzSOX6vaPOBsdHN0ZL3wa3XsuVlZ9IOm\nLTkeQDVTZAg22nca1RciTxG1jKoXyNJSxFwJkRXMTa8yAWFP5e77idG+9HDfqjZN\nuVbMqybrAgMBAAECggEADvz9HoDmiyccSH/m2RwHoOtibydSoIWj8WiE0kUUCkfS\nT+RDHyKvHhLLVUeTcaGNs2btPD9mhTNPzC2BeqCcftMhE4uTAZ4yD7jgU6/mRdeE\nwc2GfBUP7v3RVdikKlVGTHAAg7L/l0EAyz6heERg3maUDWIPrDdcY10vAe+QJXaH\n2uGCA3Zzlf/tuxJDfVlH8BVl2T8kZPK20GEEhz1Eg1P1c/Y+hYfc3xOEKJlwrcSp\nhzdiItaWTNBnCuexdjKxBAGWwH2H/Hv/rwD+TSJKEoHiCa1fmzQFN4jTio96xwJb\nud9ZzMFHWvBvQoYRv7maTZSifhuyKzG4XfvR56SPZQKBgQDp36jrVG9l8cyz7KAA\nMIFLot8WnWjMIDmRM3g69WqdADiX/v7BHR6gGIePFf/kgJmiUEmnkYWJqT2Cybcy\nC+z40a67NhhY3Kdz0gLwnP44cmsWohV0zXhUiNn9aWPPvuW5zMFxju1XpIe8Sytw\nl1OnKQR8Cb0KocqGdGPXCZ+Q7wKBgQDOys4Ltxrja1fpdkt1D/2VWyCwEvDGrjcf\nnMf+zuERf77TpjfAy7G3DzDZ3TWpIZ2PokE5LY9DoI4hk+6xyyDVjhQC3TcyKtUR\nDz0zAeGMx5Gx0XTp2l3Y5oI+/YE9Fu3wzb5lcISSQE2ImrOPfbFrrm8s2uWbBw42\nIPZhrktRxQKBgFnioCVyGi5wNGCifQwVmFvdiShD71cku3tW8MqYMBWPVDD2zCqk\nanTVeKRBrEvCMUn02ZoRj+VMqltt837Enpsy25kQPWNJywH0oTSg4gQH1aipOt3d\nanXy8vU2YCokEF7Mlzxx1j5s+c4ghd2MC5afaR3TEFjZveDXMtge1rj5AoGBAMhi\nOXucuU96qzutx7zt+9qI7YnxMKQ2GXBmql499lbQpQfO3+PQ/qrW642SD/eOfXG7\n1twjS9pKcLAU+44Jug12memUl3Hjk4fubm1I+1lB4eqff11EnwAZjkifumaKG5Pm\nqwL9H1nhOcCPuEPpls0zwMOEck3hbmIBWv6YuJ/JAoGAclF1UobNfQf6NFpl1gVM\n1Q72pAP6ZluNZfV+ZZYdnPJCZB8hj5PHb+HbCamkKcUV77J4tZ7IlZMAlwY3RXmC\nYdMokHkg1Scj4qNtxK9Y7NEnQzV1juS7fFdzEVBT8pKOln5ZOIslIUG8RhOC2IHD\n0iTWNozNhW1xCO6NbVbUyFs=\n-----END PRIVATE KEY-----\n",
+  "client_email": "tgt-erp@tgt-stm.iam.gserviceaccount.com",
+  "client_id": "112909820357495937691",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/tgt-erp%40tgt-stm.iam.gserviceaccount.com"
+}
+</value></data>
+  </root>

@@ -1,0 +1,11 @@
+namespace Target.Venda.Model.Enum;
+
+public enum OrigemVolumePedidoEnum
+{
+	NAO_SELECIONADO,
+	FILA_SEPARACAO,
+	FILA_FATURAMENTO,
+	SEPARACAO_VOLUMES,
+	PEDIDO_VENDA,
+	ATIVIDADES_LOGISTICAS
+}

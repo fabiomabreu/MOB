@@ -1,0 +1,25 @@
+namespace Target.Mob.Desktop.Geracao.Enum;
+
+public enum EtapaGeracaoItemTR
+{
+	Geracao = 1,
+	Geracao_Replicacao,
+	Geracao_Replicacao_ObtemEntidades,
+	Geracao_Replicacao_TransfereDados,
+	Geracao_PreCarga,
+	Geracao_PreCarga_ObtemEntidades,
+	Geracao_PreCarga_CarregaDados,
+	Geracao_ObtemVendedores,
+	Geracao_Vendedor,
+	Geracao_Vendedor_ObtemEntidades,
+	Geracao_Vendedor_CriaBaseMobile,
+	Geracao_Vendedor_Entidade,
+	Geracao_Vendedor_Entidade_PreparaTabelaLayout,
+	Geracao_Vendedor_Entidade_PreparaTabelaControle,
+	Geracao_Vendedor_Entidade_TransformaDados,
+	Geracao_Vendedor_Entidade_ExportaDadosBaseMobile,
+	Geracao_Vendedor_CompactaBaseMobile,
+	Geracao_Vendedor_InsereCargaMobileBancoDados,
+	Geracao_Vendedor_AtualizaTabelaControle,
+	Geracao_Vendedor_AtualizaFlagCargaCompleta
+}

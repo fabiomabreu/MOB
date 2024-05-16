@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Target.Mob.Desktop.Servico.ERP.LiberacaoPedido</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net461</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Target.Mob.Desktop.Servico.ERP.Base">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Servico.ERP.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Core" />
+    <Reference Include="Target.Mob.Desktop.Sincronizacao.WsERP">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Sincronizacao.WsERP.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

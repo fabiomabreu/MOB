@@ -1,0 +1,47 @@
+using System;
+using System.CodeDom.Compiler;
+using System.ComponentModel;
+using System.Diagnostics;
+using System.Xml.Serialization;
+
+namespace Target.Mob.Desktop.Sincronizacao.WsERP.WsERP;
+
+[Serializable]
+[GeneratedCode("System.Xml", "4.8.9037.0")]
+[DebuggerStepThrough]
+[DesignerCategory("code")]
+[XmlType(Namespace = "Target.WsERP")]
+public class EndCliERPModel : EndCliERPWsModel
+{
+	private int? iDEndCliField;
+
+	private int? codigoClienteField;
+
+	[XmlElement(IsNullable = true, Order = 0)]
+	public int? IDEndCli
+	{
+		get
+		{
+			return iDEndCliField;
+		}
+		set
+		{
+			iDEndCliField = value;
+			RaisePropertyChanged("IDEndCli");
+		}
+	}
+
+	[XmlElement(IsNullable = true, Order = 1)]
+	public int? CodigoCliente
+	{
+		get
+		{
+			return codigoClienteField;
+		}
+		set
+		{
+			codigoClienteField = value;
+			RaisePropertyChanged("CodigoCliente");
+		}
+	}
+}

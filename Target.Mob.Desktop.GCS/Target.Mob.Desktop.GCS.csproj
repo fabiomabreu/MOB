@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Target.Mob.Desktop.GCS</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="System.Configuration" />
+    <Reference Include="Google.Cloud.Storage.V1">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Google.Cloud.Storage.V1.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Auth">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Google.Apis.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Storage.v1">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Google.Apis.Storage.v1.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Google.Apis.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Api.Gax">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Google.Api.Gax.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Target.Mob.Desktop.Sincronizacao.BLL</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="System.Data" />
+    <Reference Include="Target.Mob.Desktop.Sincronizacao.Model">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Sincronizacao.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Target.Mob.Desktop.Sincronizacao.Common">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Sincronizacao.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Target.Mob.Desktop.Configuracao.Model">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Configuracao.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Target.Venda.Model">
+      <HintPath>..\..\..\Target\TargetVenda\Application\Target.Venda.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Target.Venda.IBusiness">
+      <HintPath>..\..\..\Target\TargetVenda\Application\Target.Venda.IBusiness.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SocketIOClient">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\SocketIOClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Target.Mob.Desktop.Sincronizacao.DAL">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Sincronizacao.DAL.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="Target.Mob.Common">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\Target\TargetVenda\Application\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Target.Mob.Desktop.Configuracao.Bll">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Configuracao.Bll.dll</HintPath>
+    </Reference>
+    <Reference Include="Target.Mob.Desktop.Geracao.Bll">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Geracao.Bll.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

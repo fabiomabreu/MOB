@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Target.Mob.Desktop.Configuracao.Bll</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="System.Data" />
+    <Reference Include="Target.Mob.Desktop.Configuracao.Model">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Configuracao.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Target.Mob.Desktop.Sincronizacao.Common">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Sincronizacao.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Target.Mob.Desktop.Configuracao.Dal">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Configuracao.Dal.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Target.Mob.Desktop.Geracao.Dal</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Target.Mob.Desktop.Geracao.Model">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Geracao.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="Target.Mob.Desktop.Geracao.Enum">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Geracao.Enum.dll</HintPath>
+    </Reference>
+    <Reference Include="Target.Mob.Desktop.Geracao.Common">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Geracao.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

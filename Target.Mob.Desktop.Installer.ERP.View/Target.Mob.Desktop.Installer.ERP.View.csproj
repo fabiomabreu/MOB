@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Target.Mob.Desktop.Installer.ERP.View</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net461</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="Target.Mob.Desktop.Geracao.Model">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Geracao.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="Target.Mob.Common">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Target.Mob.Desktop.Common">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Target.Mob.Desktop.Sincronizacao.WsERP">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Sincronizacao.WsERP.dll</HintPath>
+    </Reference>
+    <Reference Include="Target.Mob.Desktop.Database.Script.Executor">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Database.Script.Executor.dll</HintPath>
+    </Reference>
+    <Reference Include="Target.Mob.Desktop.Geracao.Bll">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Geracao.Bll.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

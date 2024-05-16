@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Target.Venda.Servico.API</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net461</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="Target.Venda.WebApiSelfHost">
+      <HintPath>..\..\..\Target\TargetVenda\Application\Target.Venda.WebApiSelfHost.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

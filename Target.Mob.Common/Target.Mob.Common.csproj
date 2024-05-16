@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Target.Mob.Common</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="Resco.Zip">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Resco.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+</Project>

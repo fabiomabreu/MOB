@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Target.Mob.Desktop.Api</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="System.Net.Http">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http">
+      <HintPath>..\..\..\Target\TargetVenda\Application\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Jwt">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Microsoft.Owin.Security.Jwt.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetZip">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\DotNetZip.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="Target.Mob.Desktop.Sincronizacao.Common">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Sincronizacao.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Target.Mob.Desktop.Sincronizacao.Model">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Sincronizacao.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Tokens">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Microsoft.IdentityModel.Tokens.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IdentityModel.Tokens.Jwt">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="Microsoft.Owin.Cors">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Microsoft.Owin.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.Owin">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\System.Web.Http.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject.Extensions.ChildKernel">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Ninject.Extensions.ChildKernel.dll</HintPath>
+    </Reference>
+    <Reference Include="Target.Mob.Desktop.Geracao.Common">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Geracao.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Target.Mob.Common">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="Target.Mob.Desktop.Sincronizacao.BLL">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Sincronizacao.BLL.dll</HintPath>
+    </Reference>
+    <Reference Include="Target.Mob.Desktop.Geracao.Bll">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Geracao.Bll.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\Target\TargetVenda\Application\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Target.Mob.Desktop.GCS">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.GCS.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

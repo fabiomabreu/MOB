@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Target.Mob.Desktop.Sincronizacao.WsERP</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Data" />
+    <Reference Include="Target.Mob.Desktop.Sincronizacao.BLL">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Sincronizacao.BLL.dll</HintPath>
+    </Reference>
+    <Reference Include="Target.Mob.Desktop.Sincronizacao.Common">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Sincronizacao.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Target.Mob.Desktop.Sincronizacao.Model">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Sincronizacao.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Target.Mob.Desktop.Configuracao.Model">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Configuracao.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Target.Mob.Desktop.Geracao.Model">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Geracao.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="Target.Mob.Desktop.Api">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="Target.Mob.Desktop.Util">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="Target.Mob.Desktop.Geracao.Enum">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Geracao.Enum.dll</HintPath>
+    </Reference>
+    <Reference Include="Target.Mob.Common">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Target.Mob.Desktop.Common">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Target.Mob.Desktop.Configuracao.Bll">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Configuracao.Bll.dll</HintPath>
+    </Reference>
+    <Reference Include="Target.Mob.Desktop.Geracao.Bll">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\Target.Mob.Desktop.Geracao.Bll.dll</HintPath>
+    </Reference>
+    <Reference Include="FrameworkTarget.Seguranca">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\FrameworkTarget.Seguranca.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="fastJSON">
+      <HintPath>..\..\..\Target\TargetMob\ServicoERP\Application\fastJSON.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Target.Venda.WebApiSelfHost</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="System.Web.Http.SelfHost">
+      <HintPath>..\..\..\Target\TargetVenda\Application\System.Web.Http.SelfHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http">
+      <HintPath>..\..\..\Target\TargetVenda\Application\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\Target\TargetVenda\Application\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Target.Venda.Model">
+      <HintPath>..\..\..\Target\TargetVenda\Application\Target.Venda.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Target.Venda.IBusiness">
+      <HintPath>..\..\..\Target\TargetVenda\Application\Target.Venda.IBusiness.dll</HintPath>
+    </Reference>
+    <Reference Include="Target.Venda.Helpers">
+      <HintPath>..\..\..\Target\TargetVenda\Application\Target.Venda.Helpers.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
